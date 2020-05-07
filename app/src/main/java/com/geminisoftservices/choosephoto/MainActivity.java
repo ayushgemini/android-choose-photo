@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize the imageView (Link the imageView with front-end component ImageView)
 
+        // this is just a linking process between front end and backend
+
         imageView = findViewById(R.id.my_avatar_imageview);
 
         if(checkAndRequestPermissions(MainActivity.this)){
